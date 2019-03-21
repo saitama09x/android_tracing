@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Application theme. -->
+    <style name="AppTheme">
+
+        <!-- For the resting Spinner style -->
+        <item name="android:spinnerItemStyle">
+            @+style/spinnerItemStyle
+        </item> 
+
+        <!-- For each individual Spinner list item once clicked on -->
+        <item name="android:spinnerDropDownItemStyle">
+            @+style/spinnerDropDownItemStyle
+        </item>
+
+    </style>
+
+
+    <style name="spinnerItemStyle">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="spinnerDropDownItemStyle">
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+     <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+       <item name="android:background">#FFF2F2F2</item>
+       <item name="android:textColor">#FF000000</item>   
+    </style>
+
+</resources>

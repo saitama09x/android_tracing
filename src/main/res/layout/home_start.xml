@@ -1,0 +1,20 @@
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:background="@drawable/start_background"
+   android:orientation="vertical"
+   android:gravity="center_horizontal">
+
+<ImageView 
+		   android:layout_width="wrap_content"
+		   android:layout_height="0dp"
+		   android:layout_weight="0.2"
+		   android:id="@+id/start_btn"
+		   android:src="@drawable/start_btn" 
+		   android:layout_marginBottom="20dp"
+		   android:adjustViewBounds="true"
+		   android:onClick="home"
+           />
+  	  		   
+ </LinearLayout>

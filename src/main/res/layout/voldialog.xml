@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent" 
+android:orientation="vertical"
+android:padding="20dp"
+android:gravity="center_horizontal">
+
+<View android:layout_width="match_parent"
+	android:layout_height="10dp"
+	/>
+
+<LinearLayout android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:orientation="horizontal"
+android:gravity="center_horizontal"
+>
+
+<CheckBox
+android:id="@+id/vol_on"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="ON"
+android:textSize="20dp"
+android:onClick="vol_on_click"
+/>
+
+<CheckBox
+android:id="@+id/vol_off"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="OFF" 
+android:textSize="20dp"
+android:onClick="vol_off_click"
+/>
+
+</LinearLayout>
+
+
+<View android:layout_width="match_parent"
+	android:layout_height="10dp"
+	/>
+
+<Button 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Done"
+	android:textSize="17dp"
+	android:onClick="close_diag"
+/>
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+	android:orientation="horizontal"
+	android:layout_centerHorizontal="true"
+	android:background="#FF000000">
+
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentEnd="true" android:orientation="horizontal">
+			  
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent"
+                   android:id="@+id/draw_star" />
+
+</LinearLayout>
+
+</LinearLayout>
